@@ -16,12 +16,11 @@ args = vars(ap.parse_args())
 # set your Microsoft Cognitive Services API key along with (1) the
 # maximum number of results for a given search and (2) the group size
 # for results (maximum of 50 per request)
-#Key 1: 528a51a648024829b8ec869b13d9b985
 
-#Key 2: 9c3d629bb39347f5a872fe4e98cda2bd
 
-API_KEY = "528a51a648024829b8ec869b13d9b985"
-MAX_RESULTS = 1000
+
+API_KEY = "YOUR_API_KEY" #Sample Key: 528a51a648024829b8ec869b13d9b985
+MAX_RESULTS = 1000 
 GROUP_SIZE = 50
  
 # set the endpoint API URL
